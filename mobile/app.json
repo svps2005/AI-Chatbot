@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "AI Assistant",
+    "slug": "ai-chatbot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.aichatbot.mobile"
+    },
+    "android": {
+      "package": "com.aichatbot.mobile"
+    },
+    "web": {},
+    "scheme": "aichatbot"
+  }
+}

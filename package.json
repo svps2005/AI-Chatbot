@@ -1,0 +1,32 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "Production-grade AI Chatbot with React Native frontend and Node.js backend",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix mobile",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:mobile": "npm start --prefix mobile",
+    "build:backend": "npm run build --prefix backend",
+    "build:mobile": "expo prebuild --prefix mobile",
+    "type-check:backend": "npm run type-check --prefix backend",
+    "type-check:mobile": "npm run type-check --prefix mobile",
+    "type-check": "npm run type-check:backend && npm run type-check:mobile",
+    "lint:backend": "npm run lint --prefix backend",
+    "lint:mobile": "npm run lint --prefix mobile"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "gemini",
+    "react-native",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "workspaces": [
+    "backend",
+    "mobile"
+  ]
+}
